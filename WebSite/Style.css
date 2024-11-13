@@ -1,0 +1,241 @@
+body {
+    top: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.headerlogo {
+    margin-right: 60px;
+    pointer-events: none;
+}
+
+.container {
+    margin: 0px 0px;
+}
+
+.header {
+    background-image: url(BG.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerline {
+    width: 100%;
+    background-image: url(BGH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navitem {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: 300;
+    font-size: 18px;
+
+    transition: color 0.2s linear;
+}
+
+.navitem:hover {
+    color: rgb(96, 109, 109);
+    text-decoration: overline;
+}
+
+
+.phoneplate {
+    display: flex;
+}
+
+
+.phone-img {
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+.number {
+    padding-top: 6px;
+    position: relative;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+}
+
+.num:hover {
+    color: #808080;
+}
+
+.headertitleup {
+    font-size: 69px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1px;
+    position: absolute;
+    top: 260px;
+    left: 245px;
+}
+.headertitlemeadle {
+    color: #969AF7;
+    font-size: 69px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.headertitledown {
+    font-size: 69px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.fbimg {
+    position: absolute;
+    right: 260px;
+    top: 260px;
+    pointer-events: none;
+
+}
+
+.inputname {
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F5F3FF;
+    outline: none;
+    top: 430px;
+    right: 310px;
+    border: 3px #F5F3FF solid;
+}
+
+.inputnum {
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F5F3FF;
+    outline: none;
+    top: 530px;
+    right: 310px;
+    border: 3px #F5F3FF solid;
+}
+
+.yourName {
+    position: absolute;
+    top: 410px;
+    right: 545px;
+    color: #808080;
+}
+
+.yourNum {
+    position: absolute;
+    top: 510px;
+    right: 520px;
+    color: #808080;
+}
+
+.btn {
+    background-color: #FFA500;
+    width: 300px;
+    height: 56px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700px;
+    border-radius: 10px;
+    top: 635px;
+    right: 315px;
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+
+.btn:hover{
+    background-color: #a16900;
+    color: #c7c7c7;
+}
+
+.downup {
+    color: #969AF7;
+    position: absolute;
+    top: 520px;
+    left: 245px;
+    font-size: 23px;
+}
+
+.rectangle {
+    background: linear-gradient(90deg, #969AF7 1.34%, rgba(150, 154, 247, 0) 96.66%);
+    position: absolute;
+    width: 825px;
+    height: 150px;
+    top: 95px;
+    left: 0px;
+    font-size: 23px;
+    border-radius: 10px;
+    opacity: 30%;
+}
+
+.downd {
+    color: #ffffff;
+    position: absolute;
+    top: 115px;
+    left: 57px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.co {
+    position: absolute;
+    top: 129px;
+    left: 25px;
+}
+
+.ct {
+    position: absolute;
+    top: 163px;
+    left: 25px;
+}
+
+
+.cth {
+    position: absolute;
+    top: 197px;
+    left: 25px;
+}
+
+.cards {
+    position: absolute;
+    justify-content: center;
+    top: 1210px;
+    left: 380px;    
+}
+
+.aboutust {
+    font-weight: 700;
+    position: absolute;
+    font-size: 48px;
+    top: 1030px;
+    left: 785px;
+    color: #000000;
+}
+
+.aboutusd {
+    position: absolute;
+    top: 1100px;
+    left: 445px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
